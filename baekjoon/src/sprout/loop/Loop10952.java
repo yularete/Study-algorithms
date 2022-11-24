@@ -1,19 +1,21 @@
 package sprout.loop;
 
 import java.util.Scanner;
-
-public class Loop10950 {
+public class Loop10952 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int i;
-        int T = sc.nextInt();
         int A,B;
 
-        for (i=1;i<=T;i++){
+        while (true) {
             A = sc.nextInt();
             B = sc.nextInt();
-            System.out.println(A+B);
+            if((A==0)&&(B==0))
+                break;
+            if (((A > 0) && (A < 10)) && ((B > 0) && (B < 10))) {
+                System.out.println(A + B);
+            }
         }
-    sc.close();
+        sc.close();
     }
 }
