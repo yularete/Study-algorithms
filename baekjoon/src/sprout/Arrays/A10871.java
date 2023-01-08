@@ -1,4 +1,4 @@
-package Arrays;
+package sprout.Arrays;
 
 import java.util.Scanner;
 
