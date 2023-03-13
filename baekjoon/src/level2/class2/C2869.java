@@ -24,4 +24,3 @@ public class C2869 {
         System.out.println(day);
     }
 }
-}
